@@ -31,6 +31,9 @@ h2{
     font-size: 64px;
     opacity: 0.7;
 }
+.h4{
+    font-size: 48px;
+}
 .p{
     font-family: "playfair Display",serif;
     font-size: 16px;
@@ -144,6 +147,38 @@ color: var(--branding-color);
 .nav,li.active a{
     color: var(--branding-color);
 }
+.footer{
+    margin: 80px 0;
+}
+.footer, .contact-box{
+    background-color: var(--secondary-color);
+    padding: 30px 120px;
+    border-radius: 10px;
+}
+footer .contact-box{
+    margin: 0;
+}
+.footer, .Email-link{
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    text-align: center;
+}
+.footer,.Email-link:hover{
+    color: var(--branding-color);
+}
+.footer, .social-link a{
+    margin: 0 20px;
+    color: var(--branding-color);
+    background-color: var(--secondary-color);
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    transition: all 150ms ease-in-out;
+}
+.footer, .social-link a:hover{
+    color: var(--branding-color);
+}
 @media(max-width:900px){
     .h1{
         font-size: 44px;
@@ -162,5 +197,8 @@ color: var(--branding-color);
 .about-section{
     text-align: center;
     padding: 0;
+}
+.footer,.contact-box{
+    padding: 30px;
 }
 }
