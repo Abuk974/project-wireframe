@@ -3,7 +3,6 @@ font-family: 'Poppins', sans-serif;*/
 :root{
     --branding-color:#6c63ff;
     font-family: "playfair Display",serif;
-    --heading-font-family:
     --default-font-family:"Poppins", sans-serif;
     --secondary-color: #f9f7f3;
 }
@@ -75,6 +74,24 @@ h2{
 }
 .project-description{
     padding: 120px 60px;
+}
+.about-section{
+    padding: 120px 60px;
+}
+.about-section h1{
+font-size: 64px;
+line-height: 80px;
+}
+.about-section h2{
+    font-family: var(--default-font-family);
+    font-size: 30px;
+}
+.about-section-content{
+    margin: 30px;
+}
+.about-section img{
+    size: 60px;
+    border-radius: 10px;
 }
 @media(max-width:900px){
     .h1{
