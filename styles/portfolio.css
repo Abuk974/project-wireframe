@@ -31,7 +31,7 @@ h2{
     font-size: 64px;
     opacity: 0.7;
 }
-.h4{
+.h3{
     font-size: 48px;
 }
 .p{
@@ -43,7 +43,7 @@ h2{
 .hero{
     text-align: center;
     background-color: var(--secondary-color);
-    padding: 160px 20;
+    padding: 80px 20;
 }
 .hero p{
     font-weight: bold;
@@ -82,7 +82,7 @@ h2{
     padding: 120px 60px;
 }
 .content-container{
-    padding: 120px 60px;
+    padding: 60px 20px;
 }
 .about-section h1{
 font-size: 64px;
