@@ -127,7 +127,7 @@ margin: 20px 0 0;
     display: inline;
     list-style: none;
     line-height: 42px;
-    margin-left:20px;
+    margin-left:10px;
 }
 .nav,ul{
     margin: 0;
@@ -201,4 +201,13 @@ footer .contact-box{
 .footer,.contact-box{
     padding: 30px;
 }
+.logo{
+    display: none;
 }
+.nav,.Abuk-logo{
+    display: none;
+}
+
+}
+
+
